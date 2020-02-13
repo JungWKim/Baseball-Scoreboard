@@ -1,0 +1,88 @@
+# Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, the Altera Quartus Prime License Agreement,
+# the Altera MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Altera and sold by Altera or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+
+# Quartus Prime Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
+# File: D:\digital project_100k\keypad.csv
+# Generated on: Sat Dec 14 21:50:22 2019
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Strict Preservation
+altera_reserved_tck,Input,,,,PIN_L2,,,,,,
+altera_reserved_tdi,Input,,,,PIN_L5,,,,,,
+altera_reserved_tdo,Output,,,,PIN_L4,,,,,,
+altera_reserved_tms,Input,,,,PIN_L1,,,,,,
+auto_stp_external_clock_0,Input,,,,PIN_T2,,,,,,
+button[10],Input,PIN_L6,2,B2_N0,PIN_C7,,,,,,
+button[9],Input,PIN_J1,1,B1_N3,PIN_J1,2.5 V,,,,,
+button[8],Input,PIN_J2,1,B1_N3,PIN_J2,2.5 V,,,,,
+button[7],Input,PIN_H1,1,B1_N3,PIN_H1,2.5 V,,,,,
+button[6],Input,PIN_L7,2,B2_N0,PIN_L7,2.5 V,,,,,
+button[5],Input,PIN_M5,2,B2_N0,PIN_M5,2.5 V,,,,,
+button[4],Input,PIN_M2,2,B2_N0,PIN_M2,2.5 V,,,,,
+button[3],Input,PIN_M3,2,B2_N0,PIN_M3,2.5 V,,,,,
+button[2],Input,PIN_M4,2,B2_N0,PIN_M4,2.5 V,,,,,
+button[1],Input,PIN_M6,2,B2_N0,PIN_M6,2.5 V,,,,,
+button[0],Input,PIN_J3,1,B1_N3,PIN_J3,2.5 V,,,,,
+clk_100k_signal,Input,PIN_AB11,3,B3_N0,PIN_G1,2.5 V,,,,,
+dip0,Input,PIN_U1,2,B2_N1,PIN_U1,2.5 V,,,,,
+led_on[6],Output,PIN_N7,2,B2_N2,PIN_N7,2.5 V,,,,,
+led_on[5],Output,PIN_M7,2,B2_N1,PIN_M7,2.5 V,,,,,
+led_on[4],Output,PIN_L8,1,B1_N2,PIN_L8,2.5 V,,,,,
+led_on[3],Output,PIN_N6,2,B2_N1,PIN_N6,2.5 V,,,,,
+led_on[2],Output,PIN_N8,2,B2_N2,PIN_N8,2.5 V,,,,,
+led_on[1],Output,PIN_M8,2,B2_N1,PIN_M8,2.5 V,,,,,
+led_on[0],Output,PIN_K7,1,B1_N2,PIN_K7,2.5 V,,,,,
+piezo_again,Output,PIN_AB18,4,B4_N1,PIN_AB18,2.5 V,,,,,
+resetn_all,Input,PIN_E4,1,B1_N0,PIN_E4,2.5 V,,,,,
+seg_7_out[7],Output,PIN_T7,2,B2_N3,PIN_T7,2.5 V,,,,,
+seg_7_out[6],Output,PIN_T5,2,B2_N3,PIN_T5,2.5 V,,,,,
+seg_7_out[5],Output,PIN_T4,2,B2_N3,PIN_T4,2.5 V,,,,,
+seg_7_out[4],Output,PIN_T3,2,B2_N2,PIN_T3,2.5 V,,,,,
+seg_7_out[3],Output,PIN_P6,2,B2_N3,PIN_P6,2.5 V,,,,,
+seg_7_out[2],Output,PIN_R7,2,B2_N3,PIN_R7,2.5 V,,,,,
+seg_7_out[1],Output,PIN_R6,2,B2_N3,PIN_R6,2.5 V,,,,,
+seg_7_out[0],Output,PIN_R5,2,B2_N3,PIN_R5,2.5 V,,,,,
+seg_com_out[7],Output,PIN_J7,1,B1_N2,PIN_J7,2.5 V,,,,,
+seg_com_out[6],Output,PIN_J6,1,B1_N1,PIN_J6,2.5 V,,,,,
+seg_com_out[5],Output,PIN_J5,1,B1_N2,PIN_J5,2.5 V,,,,,
+seg_com_out[4],Output,PIN_K8,1,B1_N2,PIN_K8,2.5 V,,,,,
+seg_com_out[3],Output,PIN_E3,1,B1_N0,PIN_E3,2.5 V,,,,,
+seg_com_out[2],Output,PIN_F2,1,B1_N1,PIN_F2,2.5 V,,,,,
+seg_com_out[1],Output,PIN_G5,1,B1_N0,PIN_G5,2.5 V,,,,,
+seg_com_out[0],Output,PIN_H8,1,B1_N1,PIN_H8,2.5 V,,,,,
+seg_data_out[7],Output,PIN_H7,1,B1_N1,PIN_H7,2.5 V,,,,,
+seg_data_out[6],Output,PIN_H6,1,B1_N1,PIN_H6,2.5 V,,,,,
+seg_data_out[5],Output,PIN_H5,1,B1_N2,PIN_H5,2.5 V,,,,,
+seg_data_out[4],Output,PIN_J8,1,B1_N1,PIN_J8,2.5 V,,,,,
+seg_data_out[3],Output,PIN_H10,8,B8_N1,PIN_H10,2.5 V,,,,,
+seg_data_out[2],Output,PIN_B2,1,B1_N0,PIN_B2,2.5 V,,,,,
+seg_data_out[1],Output,PIN_C2,1,B1_N1,PIN_C2,2.5 V,,,,,
+seg_data_out[0],Output,PIN_D2,1,B1_N1,PIN_D2,2.5 V,,,,,
+servo_again,Output,PIN_V15,4,B4_N2,PIN_V15,2.5 V,,,,,
+led[0],Unknown,,,,,2.5 V,,,,,
+led[2],Unknown,,,,,2.5 V,,,,,
+led[6],Unknown,,,,,2.5 V,,,,,
+led[3],Unknown,,,,,2.5 V,,,,,
+led[1],Unknown,,,,,2.5 V,,,,,
+led[5],Unknown,,,,,2.5 V,,,,,
+led[4],Unknown,,,,,2.5 V,,,,,
+clk_100k_piezo,Unknown,,,,,2.5 V,,,,,
+clk_50M_signal,Unknown,,,,,,,,,,
+resetn_piezo,Unknown,,,,,,,,,,
+piezo,Unknown,,,,,,,,,,
+resetn,Unknown,,,,,,,,,,
+button9,Unknown,,,,,,,,,,
+clk_100k,Unknown,,,,,,,,,,

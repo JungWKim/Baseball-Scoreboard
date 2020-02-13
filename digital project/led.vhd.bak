@@ -1,0 +1,16 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity led is
+	port( code : in std_logic_vector(9 downto 0);
+			led : out std_logic_vector(6 downto 0));
+entity led;
+
+architecture example of led is
+
+begin
+	ball : process(code(1), code(7))
+	begin
+		
+	end process;
+end example;

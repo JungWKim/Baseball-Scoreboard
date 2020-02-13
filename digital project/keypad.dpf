@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pin_planner>
+	<pin_info>
+		<pin name="clk_50M_signal" source="Pin Planner" >
+		</pin>
+		<pin name="resetn_piezo" source="Pin Planner" >
+		</pin>
+		<pin name="piezo" source="Pin Planner" >
+		</pin>
+		<pin name="resetn" source="Pin Planner" >
+		</pin>
+		<pin name="button9" source="Pin Planner" >
+		</pin>
+		<pin name="clk_100k" source="Pin Planner" >
+		</pin>
+	</pin_info>
+	<buses>
+	</buses>
+	<group_file_association>
+	</group_file_association>
+	<pin_planner_file_specifies>
+	</pin_planner_file_specifies>
+</pin_planner>

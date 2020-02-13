@@ -1,0 +1,14 @@
+Partition Merge Status : Successful - Wed Nov 27 02:44:55 2019
+Quartus Prime Version : 15.1.0 Build 185 10/21/2015 SJ Lite Edition
+Revision Name : keypad
+Top-level Entity Name : keypad
+Family : Cyclone IV E
+Total logic elements : 39
+    Total combinational functions : 38
+    Dedicated logic registers : 23
+Total registers : 23
+Total pins : 21
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

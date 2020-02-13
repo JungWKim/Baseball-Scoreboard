@@ -1,0 +1,20 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity keypad is
+	port( led : out std_logic_vector(8 downto 0);
+			button : in std_logic_vector(8 downto 0));
+end keypad;
+
+architecture keypad_arch of keypad is
+begin
+	process(button)
+	begin
+		if button(0) = 1 then
+			led(0) <= 1;
+		elsif button(0) = 0 then
+			led(0) <= 0;
+		end if;
+	end process;
+	
+end keypad_arch;

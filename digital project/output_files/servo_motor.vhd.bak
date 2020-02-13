@@ -1,0 +1,39 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity servo_motor is
+	port(resetn : in std_logic;
+		  clk_10k : in std_logic;
+		  dir : in std_logic_vector(2 downto 0);
+		  servo : out std_logic);
+end servo_motor;
+
+architecture dc_servo of servo_motor is
+	signal cnt : integer range 0 to 199;
+	signal val : integer range 0 to 100:=7;
+	
+begin
+
+	p_cnt : process(resetn, clk_10k)
+	begin
+		if resetn = '0' then
+			cnt <=0;
+		elsif clk_10k'event and clk_10k = '1' then
+			if cnt >= 199 then
+				cnt <= 0;
+			else
+				cnt <= cnt+1;
+			end if;
+		end if;
+
+	end process;
+		
+	val <= 15 WHEN resetn  = '0' ELSE
+				  7 WHEN dir  = 100 ELSE
+				  15 WHEN dir  = 010 ELSE
+				  23 WHEN dir  = 001; 
+				  
+	servo <= '1'  WHEN cnt < val ELSE '0';
+	
+end dc_servo;

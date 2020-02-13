@@ -1,0 +1,209 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "led_on[0]",
+					"strict" : false
+				},
+				{
+					"name" : "led_on[1]",
+					"strict" : false
+				},
+				{
+					"name" : "led_on[2]",
+					"strict" : false
+				},
+				{
+					"name" : "led_on[3]",
+					"strict" : false
+				},
+				{
+					"name" : "led_on[4]",
+					"strict" : false
+				},
+				{
+					"name" : "led_on[5]",
+					"strict" : false
+				},
+				{
+					"name" : "led_on[6]",
+					"strict" : false
+				},
+				{
+					"name" : "piezo_again",
+					"strict" : false
+				},
+				{
+					"name" : "servo_again",
+					"strict" : false
+				},
+				{
+					"name" : "seg_com_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_com_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_com_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_com_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_com_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_com_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_com_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_com_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_data_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_data_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_data_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_data_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_data_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_data_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_data_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_7_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_7_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_7_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_7_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_7_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_7_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_7_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_7_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "resetn_all",
+					"strict" : false
+				},
+				{
+					"name" : "button[9]",
+					"strict" : false
+				},
+				{
+					"name" : "clk_100k_signal",
+					"strict" : false
+				},
+				{
+					"name" : "dip0",
+					"strict" : false
+				},
+				{
+					"name" : "button[6]",
+					"strict" : false
+				},
+				{
+					"name" : "button[0]",
+					"strict" : false
+				},
+				{
+					"name" : "button[7]",
+					"strict" : false
+				},
+				{
+					"name" : "button[1]",
+					"strict" : false
+				},
+				{
+					"name" : "button[8]",
+					"strict" : false
+				},
+				{
+					"name" : "button[2]",
+					"strict" : false
+				},
+				{
+					"name" : "button[10]",
+					"strict" : false
+				},
+				{
+					"name" : "button[5]",
+					"strict" : false
+				},
+				{
+					"name" : "button[4]",
+					"strict" : false
+				},
+				{
+					"name" : "button[3]",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
