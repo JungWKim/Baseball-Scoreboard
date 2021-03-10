@@ -2,7 +2,6 @@
 ### Language : VHDL
 ### Hardware kit : HBE2-combo
 ### IDE : Quartus2-Lite
-![최종 보고서001](https://user-images.githubusercontent.com/50034678/74432640-41925900-4ea2-11ea-84de-1dbb17083ce1.jpg)
 ![최종 보고서002](https://user-images.githubusercontent.com/50034678/74432642-42c38600-4ea2-11ea-9367-380096ff179d.jpg)
 ![최종 보고서003](https://user-images.githubusercontent.com/50034678/74432643-42c38600-4ea2-11ea-83f9-793056958c4c.jpg)
 ![최종 보고서004](https://user-images.githubusercontent.com/50034678/74432645-435c1c80-4ea2-11ea-927f-c58c1bba9c12.jpg)
